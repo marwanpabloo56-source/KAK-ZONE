@@ -1,0 +1,6 @@
+{
+  "name": "KAK ZONE",
+  "description": "منيو وطلبات مطعم KAK ZONE: سماش برجر، فرايد تشيكن، وينجز، وجبات، كريبات، ميكسات، وباستا مباشرة عبر واتساب.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
