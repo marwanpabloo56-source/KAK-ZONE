@@ -54,9 +54,10 @@ export function ProductCard({
         >
           <FoodImage
             src={item.image}
-            alt={item.name}
+            alt={item.illustrative ? 'صورة من منيو القسم' : item.name}
             className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-[1.03]"
           />
+            {item.illustrative && <span className="absolute top-2 right-2 rounded bg-black/80 px-2 py-1 text-[10px] text-white">صورة القسم</span>}
         </button>
       )}
 

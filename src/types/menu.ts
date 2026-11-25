@@ -34,6 +34,7 @@ export interface MenuItem {
   subGroup?: string;
   description?: string;
   image: string | null;
+  illustrative?: boolean;
   prices: SizePriceMap;
   supportsPaidExtras?: boolean;
   isFeatured?: boolean;

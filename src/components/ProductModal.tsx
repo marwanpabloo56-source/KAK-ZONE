@@ -128,9 +128,10 @@ export function ProductModal({
           <div className="relative h-52 sm:h-64 w-full shrink-0 bg-[#101010] p-4">
             <FoodImage
               src={item.image}
-              alt={item.name}
+              alt={item.illustrative ? 'صورة من منيو القسم' : item.name}
               className="w-full h-full object-contain"
             />
+            {item.illustrative && <span className="absolute top-2 right-2 rounded bg-black/80 px-2 py-1 text-[10px] text-white">صورة القسم</span>}
             <div
               className="absolute inset-0 bg-gradient-to-t from-[#171717] via-transparent to-black/35 pointer-events-none"
               aria-hidden="true"
